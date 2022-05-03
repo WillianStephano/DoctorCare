@@ -1,0 +1,164 @@
+:root{
+   --verde_claro:#dce9e2;
+   --verde_escuro:#00856F;
+   --branco:#f7f9f9;
+
+   font-family: 'DM Sans', sans-serif;
+}
+
+/* Cabecalho  */
+.cabecalho{
+   background-color: var(--verde_claro);
+   padding: 2% 0;
+}
+
+.cabecalho_conteudo{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.cabecalho_conteudo .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo_cabecalho{
+   font-size: 20px;
+   font-weight: 500;
+   letter-spacing: 0.03em;
+}
+
+.logo_cabecalho span{
+   color: var(--verde_escuro);
+}
+
+.menu_lista_cabecalho{
+   display: flex;
+   justify-content: center;
+   gap: 10%;
+}
+
+.item_menu_cabecalho{
+   font-size: 16px;
+   font-weight: 400;
+   color: var(--verde_escuro);
+}
+
+.bt_agendar_cabecalho{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 500;
+   color: var(--verde_escuro);
+   border: 1px solid var(--verde_escuro);
+   border-radius: 20px;
+   padding: 0.8% 1.5%;
+}
+
+
+/* Intro */
+.intro{
+   background-color: var(--verde_claro);
+}
+
+.intro .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 auto;
+   width: 90%;
+}
+
+.conteudo_texto_intro{
+   width: 50%;
+}
+
+.txt_intro{
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 14px;
+   color: var(--verde_escuro);
+   line-height: 2.0em;
+}
+
+.titulo_intro{
+   font-size: 52px;
+   font-weight: 700;
+   line-height: 1.2em;
+   color: #212529;
+}
+
+.sub_titulo_intro{
+   color: #495057;
+   line-height: 1.6em;
+   padding: 5% 0;
+}
+
+.bt_intro{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 30%;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 500;
+   color:#ffffff;
+   background-color: var(--verde_escuro);
+   border-radius: 20px;
+   padding: 1.6% 2%;
+}
+
+.bt_intro .icon img{
+   width: 20px;
+   height: 20px;
+}
+
+
+/* Dados */
+
+.dados{
+   width: 70%;
+   margin: 0 auto;
+}
+
+.dados .container{
+   display: flex;
+   justify-content: space-around;
+   background-color: #ffffff;
+   position: relative;
+   top: -50px;
+   height: auto;
+   padding: 5% 10%;
+   box-sizing: border-box;
+}
+
+.card_dados{
+   border-right: 1px solid #00856f54;
+   padding: 0% 6%;
+   text-align: center;
+}
+
+.card_dados:last-child{
+   border: none;
+}
+
+.txt_card_dados{
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 1.8em;
+}
+
+.txt_card_dados::before{
+   content: '+';
+}
+
+.titulo_card_dados{
+   color: var(--verde_escuro);
+   font-weight: 500;
+   font-size: 15px;
+}
+
+
+/* Serviços */
