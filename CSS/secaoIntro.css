@@ -2,7 +2,8 @@
    --verde_claro:#dce9e2;
    --verde_escuro:#00856F;
    --branco:#f7f9f9;
-
+   --cinza:#DCE9E2;
+   
    font-family: 'DM Sans', sans-serif;
 }
 
@@ -95,7 +96,7 @@
    padding: 5% 0;
 }
 
-.bt_intro{
+.bt_agende{
    display: flex;
    align-items: center;
    justify-content: space-evenly;
@@ -110,17 +111,20 @@
    padding: 1.6% 2%;
 }
 
-.bt_intro .icon img{
+.bt_agende .icon img{
    width: 20px;
    height: 20px;
+}
+
+.ilustracao{
+   width: 40%;
 }
 
 
 /* Dados */
 
 .dados{
-   width: 70%;
-   margin: 0 auto;
+   background-color: var(--branco);
 }
 
 .dados .container{
@@ -130,8 +134,11 @@
    position: relative;
    top: -50px;
    height: auto;
-   padding: 5% 10%;
+   padding: 3% 0%;
    box-sizing: border-box;
+   width: 90%;
+   margin: 0 auto;
+   
 }
 
 .card_dados{
@@ -162,3 +169,203 @@
 
 
 /* Serviços */
+.servicos{
+   background-color: var(--branco);
+   margin: 0 auto;
+}
+
+.conteudo_texto_servicos{
+   text-align: center;
+   width: 40%;
+   margin: 0 auto;
+}
+
+.sub_titulo_servicos{
+   color: var(--verde_escuro);
+   font-size: 13px;
+   font-weight: 700;
+   text-transform: uppercase;
+   line-height: 1.5em;
+}
+
+.titulo_servicos{
+   font-weight: 700;
+   line-height: 1.2em;
+   font-size: 40px;
+}
+
+.servicos .container{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   row-gap: 50px;
+   width: 90%;
+   margin: 5% auto;
+}
+
+.card_sevicos{
+   background-color: #ffffff;
+   width: 25%;
+   padding: 2% 2%;
+   border: 1px solid #95959554;
+   box-shadow: 0px 5px 5px #87878760;
+   
+   display: flex;
+   flex-direction: column;
+   row-gap: 15px;
+}
+
+.icon_card_servicos{
+   width: 25px;
+}
+
+.titulo_card_servicos{
+   font-weight: 700;
+   font-size: 22px;
+   color: #212529;
+}
+
+.txt_card_servicos{
+   font-size: 14px;
+   color: #495057;
+   line-height: 1.5em;
+}
+
+
+/* Sobre nos */
+.sobre_nos{
+   width: 90%;
+   margin: 10% auto;
+}
+
+.sobre_nos .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.conteudo_texto_sobre_nos{
+   display: flex;
+   flex-direction: column;
+   row-gap: 25px;
+   width: 45%;
+}
+
+.sub_titulo_sobre_nos{
+   color: var(--verde_escuro);
+   font-size: 13px;
+   font-weight: 700;
+   text-transform: uppercase;
+   line-height: 1.5em;
+}
+
+.titulo_sobre_nos{
+   font-weight: 700;
+   line-height: 1.2em;
+   font-size: 40px;
+}
+
+.txt_sobre_nos{
+   font-size: 14px;
+   color: #495057;
+   line-height: 1.5em;
+}
+
+
+
+/* Contato*/
+.contato{
+   width: 90%;
+   margin:  10% auto;
+}
+
+.contato .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.conteudo_texto_contato{
+   display: flex;
+   flex-direction: column;
+   row-gap: 30px;
+   width: 30%;
+}
+
+.titulo_contato{
+   font-weight: 700;
+   line-height: 1.0em;
+   font-size: 40px;
+}
+
+.endereco{
+   color: #495057;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5em;
+}
+
+.icon_rua, .icon_email{
+   vertical-align: top;
+}
+
+.bt_agende_contato{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 55%;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 500;
+   color:#ffffff;
+   background-color: var(--verde_escuro);
+   border-radius: 20px;
+   padding: 2.6% 2%;
+}
+
+.bt_agende_contato .icon img{
+   width: 20px;
+   height: 20px;
+}
+
+
+/* rodape */
+.rodape{
+   background-color: var(--verde_escuro);
+   padding: 5% 0;
+}
+
+.rodape .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   width: 90%;
+}
+
+.conteudo_texto_rodape{
+   color: #ffffff;
+}
+
+.titulo_rodape{
+   font-size: 28px;
+   font-weight: 100;
+}
+
+.titulo_rodape span{
+   font-weight: 500;
+   letter-spacing: 0.1em;
+}
+
+.txt_rodape{
+   font-size: 14px;
+   line-height: 2.5em;
+   color: #FFFAF1;
+}
+
+.redes_sociais_rodape{
+   display: flex;
+   gap: 40px;
+}
+
