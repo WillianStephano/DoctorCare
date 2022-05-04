@@ -38,12 +38,12 @@
    display: flex;
    justify-content: center;
    gap: 10%;
+   color: var(--verde_escuro);
 }
 
 .item_menu_cabecalho{
    font-size: 16px;
    font-weight: 400;
-   color: var(--verde_escuro);
 }
 
 .bt_agendar_cabecalho{
@@ -55,6 +55,26 @@
    border: 1px solid var(--verde_escuro);
    border-radius: 20px;
    padding: 0.8% 1.5%;
+}
+
+.bt_agendar_cabecalho:hover{
+   background-color: #00856F;
+   color: #ffffff;
+   transition: 350ms;
+}
+
+.fixo{
+   background-color: #005f4f;
+   color: #ffffff;
+   position: sticky;
+   width: 100%;
+   top: 0.1px;
+   z-index: 1;
+   transition: 250ms;
+}
+
+.color{
+   color: #ffffff;
 }
 
 
@@ -109,6 +129,11 @@
    background-color: var(--verde_escuro);
    border-radius: 20px;
    padding: 1.6% 2%;
+}
+
+.bt_agende:hover{
+   background-color: #005f4f;
+   transition: 350ms;
 }
 
 .bt_agende .icon img{
@@ -213,6 +238,11 @@
    display: flex;
    flex-direction: column;
    row-gap: 15px;
+}
+
+.card_sevicos:hover{
+   transform: scale(102%);
+   transition: 250ms;
 }
 
 .icon_card_servicos{
@@ -323,6 +353,12 @@
    border-radius: 20px;
    padding: 2.6% 2%;
 }
+
+.bt_agende_contato:hover{
+   background-color: #005f4f;
+   transition: 350ms;
+}
+
 
 .bt_agende_contato .icon img{
    width: 20px;
