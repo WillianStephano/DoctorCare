@@ -1,0 +1,110 @@
+@media (max-width:425px) {
+   .intro .container{
+      flex-direction: column;
+      row-gap: 70px;      
+   }
+   
+   .conteudo_texto_intro {
+      width: 100%;
+      text-align: center;
+      margin-top: 10%;
+   }
+
+   .titulo_intro{
+      font-size: 40px;
+   }
+
+   .bt_agende{
+      padding: 3% 5%;
+      display: initial;
+   }
+
+   .bt_agende i{
+      vertical-align: middle;
+   }
+
+   .ilustracao{
+      width: 100%;
+      text-align: center;
+   }
+
+   .ilustracao img{
+      width: 80%;
+   }
+
+   .dados .container{
+      flex-direction: column;
+      row-gap: 70px;
+      position: initial;
+      padding: 25% 0;
+   }
+
+   .card_dados{
+      border: none;
+   }
+
+   .conteudo_texto_servicos{
+      width: 100%;
+   }
+
+   .servicos .container{
+      flex-direction: column;
+   }
+
+   .titulo_servicos{
+      font-size: 30px;
+   }
+
+   .card_sevicos{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10% 5%;
+   }
+
+   .sobre_nos{
+      width: 100%;
+   }
+   
+   .sobre_nos .container{
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 50px;
+      margin: 30% 4%;
+   }
+
+   .titulo_sobre_nos{
+      font-size: 30px;
+   }
+
+   .img_sobre_nos{
+      width: 100%;
+      order: 2;
+   }
+
+   .img_sobre_nos img{
+      width: 382px;
+      height: 252px;
+   }
+
+   .conteudo_texto_sobre_nos{
+      width: 100%;
+      order: 1;
+   }
+
+   .contato{
+      margin: 30% 4%;
+   }
+
+   .contato .container{
+      flex-direction: column;
+      row-gap: 70px;
+   }
+   
+   .conteudo_texto_contato{
+      width: 100%;
+   }
+   
+   .img_contato img{
+      width: 100%;
+   }
+}
