@@ -1,4 +1,88 @@
 @media (max-width:425px) {
+   .cabecalho{
+      background-color: #00856F;
+      color: #ffffff;
+      font-weight: 100;
+   }
+
+   .cabecalho_conteudo .container{
+      flex-direction: column;
+   }
+   
+   .logo_cabecalho span{
+      color: #ffffff;
+      font-weight: 700;
+   }
+
+   .logo_div{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+   }
+   
+   .menu_nav_cabecalho, .bt_agendar_cabecalho{
+      visibility:hidden ;
+      height: 0px;
+      transition: 150ms;
+   }
+   
+   .menu_ativo{
+      visibility:visible ;
+      transition: 250ms;
+      height: 100vh;
+      padding: 50% 0;
+   }
+
+   .menu_lista_cabecalho{
+      flex-direction: column;
+      align-items: center;
+      row-gap: 50px;
+      color: #ffffff;
+      font-size: 50px;
+   }
+
+   .item_menu_cabecalho{
+      font-size: 20px;
+      font-weight: 600;
+   }
+   
+   .bt_toggle_menu{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+   }
+   
+   .bar_toggle_menu_1, .bar_toggle_menu_2, .bar_toggle_menu_3{
+      width: 25px;
+      height: 2px;
+      background-color: #ffffff;
+      transition: 250ms;
+   }
+
+   .rotate_1{
+      transform: rotate(45deg);
+      transition: 250ms;
+      top: 6.5px;
+      position: relative;
+   }
+   
+   .rotate_2{
+      transform: rotate(-45deg);
+      transition: 250ms;
+      position: relative;
+   }
+
+   .rotate_3{
+      visibility: hidden;
+      transition: 150ms;
+   }
+   
+   
+   
+   
+   
+   
    .intro .container{
       flex-direction: column;
       row-gap: 70px;      
@@ -9,58 +93,58 @@
       text-align: center;
       margin-top: 10%;
    }
-
+   
    .titulo_intro{
       font-size: 40px;
    }
-
+   
    .bt_agende{
       padding: 3% 5%;
       display: initial;
    }
-
+   
    .bt_agende i{
       vertical-align: middle;
    }
-
+   
    .ilustracao{
       width: 100%;
       text-align: center;
    }
-
+   
    .ilustracao img{
       width: 80%;
    }
-
+   
    .dados .container{
       flex-direction: column;
       row-gap: 70px;
       position: initial;
       padding: 25% 0;
    }
-
+   
    .card_dados{
       border: none;
    }
-
+   
    .conteudo_texto_servicos{
       width: 100%;
    }
-
+   
    .servicos .container{
       flex-direction: column;
    }
-
+   
    .titulo_servicos{
       font-size: 30px;
    }
-
+   
    .card_sevicos{
       width: 100%;
       box-sizing: border-box;
       padding: 10% 5%;
    }
-
+   
    .sobre_nos{
       width: 100%;
    }
@@ -71,30 +155,30 @@
       row-gap: 50px;
       margin: 30% 4%;
    }
-
+   
    .titulo_sobre_nos{
       font-size: 30px;
    }
-
+   
    .img_sobre_nos{
       width: 100%;
       order: 2;
    }
-
+   
    .img_sobre_nos img{
       width: 382px;
       height: 252px;
    }
-
+   
    .conteudo_texto_sobre_nos{
       width: 100%;
       order: 1;
    }
-
+   
    .contato{
       margin: 30% 4%;
    }
-
+   
    .contato .container{
       flex-direction: column;
       row-gap: 70px;
