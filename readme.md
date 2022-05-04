@@ -21,7 +21,7 @@
 </h6>
 
 ## 📚 Seções
-O projeto é composto por uma pagina que contem 4 seções principais:
+O projeto é composto por uma pagina que contem 5 seções principais:
 
 - **Introdução:** Informações gerais sobre o site;
 - **Card Informativo:** Principais dados acerca da historia da empresa;
